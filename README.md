@@ -25,8 +25,8 @@ The project has two main components:
 ### Data Loading and Preprocessing
 
 - **Dataset:**  
-  The dataset can be obtained from here [https://ieee-dataport.org/documents/kannada-language-image-dataset](https://ieee-dataport.org/documents/kannada-language-image-dataset).
-
+  The dataset can be obtained from [IEEE Dataport](https://ieee-dataport.org/documents/kannada-language-image-dataset).
+  
 - **Image Configuration:**  
   Images are converted to grayscale and resized to 28x28 pixels.  
   The dataset is split into training (80%) and validation (20%) sets using `tf.keras.utils.image_dataset_from_directory`, with labels one-hot encoded.
