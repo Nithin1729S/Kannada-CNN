@@ -4,3 +4,4 @@ Kannada_Alphabets
 __pycache__/
 node_modules/
 env
+.env

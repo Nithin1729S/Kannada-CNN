@@ -125,10 +125,10 @@ export function CanvasDrawing() {
 
     // Get the processed image as base64 with maximum quality JPEG
     const processedImage = finalCanvas.toDataURL("image/jpeg", 1.0);
-
+    const backendURL=process.env.NEXT_PUBLIC_BACKEND_URL;
     // Send to backend
     try {
-      const response = await fetch("http://localhost:8000/api/recognize", {
+      const response = await fetch(`${backendURL}/api/recognize`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

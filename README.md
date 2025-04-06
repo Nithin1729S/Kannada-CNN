@@ -88,6 +88,14 @@ The trained model achieved 98.45% test accuracy.
 
 Model training can be found in Jupyter Notebook present in the notebooks folder.
 
+### Environmental Variables
+
+Create a `.env` file in the frontend directory with the following variables:
+
+```env
+NEXT_PUBLIC_BACKEND_URL=fastapi_address # URL of the FastAPI Backend Server
+```
+
 ### FastAPI Backend
 
 1. **Navigate to the `backend` Directory:**
