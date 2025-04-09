@@ -13,7 +13,7 @@ This project implements a complete pipeline to recognize 49 Kannada letters. It 
 
 The project has two main components:
 
-1. **Model Training & Evaluation:**  
+1. **Model Training & Evaluation:**   
    A convolutional neural network (CNN) is trained on a dataset of 49 Kannada alphabets. The training process involves data loading, augmentation, network construction, training with callbacks, and model evaluation.
 
 2. **Web Application:**  
