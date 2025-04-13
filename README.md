@@ -68,7 +68,7 @@ Following the convolutional layers, the network is flattened and fed through den
 - **Compilation:**  
   The model is compiled with the Adam optimizer and categorical crossentropy loss.
 
-- **Callbacks:**  
+- **Callbacks:**   
   - **EarlyStopping:** Monitors the validation loss and stops training if no improvement is seen for 5 epochs.
   - **ReduceLROnPlateau:** Reduces the learning rate when the validation loss plateaus.
   
